@@ -532,9 +532,14 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   padding: 30px 10px;
+}
+
+@media (max-width: 576px) {
+  .footer__container {
+    display: block;
+    text-align: center;
+  }
 }
 
 .footer__contact p {
@@ -553,5 +558,11 @@ a {
 .footer__logo {
   width: clamp(180px, 30vw, 285px);
   margin-bottom: 5px;
+}
+
+@media (max-width: 576px) {
+  .footer__logo {
+    margin-top: 20px;
+  }
 }
 /*# sourceMappingURL=all.css.map */

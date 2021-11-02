@@ -213,8 +213,10 @@ a
     display: flex
     justify-content: space-between
     align-items: center
-    flex-wrap: wrap
     padding: 30px 10px
+    @include phone
+        display: block
+        text-align: center
 
 .footer__contact
     p
@@ -230,3 +232,5 @@ a
 .footer__logo
     width: clamp(180px, 30vw, 285px)
     margin-bottom: 5px
+    @include phone
+        margin-top: 20px
