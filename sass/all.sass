@@ -157,7 +157,14 @@ a
 .dinosaurs__item
     text-align: center
     padding: 10px 0
-
+    img
+        transition: all 0.3s
+    img:hover
+        transform: scale(1.05, 1.05)
+        transition: all 0.3s
+        @include phone
+            transform: none
+    
     h3
         font-size: 30px
         padding: 10px 0 20px
