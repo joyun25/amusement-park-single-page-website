@@ -384,7 +384,7 @@ a {
 }
 
 .menu-show .menu {
-  max-height: 100vh;
+  max-height: calc( 100vh - 57.2px);
 }
 
 .banner {
