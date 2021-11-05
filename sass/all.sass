@@ -49,8 +49,7 @@ a
 .header__container
     display: flex
     justify-content: space-between
-    align-items: flex-end
-    padding-bottom: 5px
+    align-items: center
 
 .header__logo
     width: clamp(180px, 30vw, 285px)
@@ -65,7 +64,7 @@ a
         overflow: hidden
         transition: 0.8s
         position: absolute
-        top: 57.2px
+        top: 49.2px
         left: 0
         right: 0
         flex-direction: column
@@ -80,6 +79,7 @@ a
     margin-left: 15px
     border-radius: 20px
     transition: all 0.5s
+    margin-top: 8px
     &:hover
         background: $mainColor
         color: $bgColor
@@ -100,10 +100,10 @@ a
         display: block
         color: $mainColor
         font-size: 30px
-        margin: 0 10px 8px 0
+        margin-right: 10px
 
 .menu-show .menu
-    max-height: calc( 100vh - 57.2px)
+    max-height: calc( 100vh - 49.2px)
 
 // banner
 .banner
