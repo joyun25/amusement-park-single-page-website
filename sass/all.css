@@ -347,8 +347,6 @@ a {
   border-radius: 20px;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
-  -webkit-box-shadow: inset 0 0 5px 5px #FBFCFC;
-          box-shadow: inset 0 0 5px 5px #FBFCFC;
 }
 
 .menu__item:hover {
@@ -456,6 +454,8 @@ a {
 .dinosaurs__item img {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .dinosaurs__item img:hover {
@@ -514,6 +514,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 25px;
+  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .comment__card img {
