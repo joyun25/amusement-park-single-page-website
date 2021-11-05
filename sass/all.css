@@ -321,7 +321,7 @@ a {
     -webkit-transition: 0.8s;
     transition: 0.8s;
     position: absolute;
-    top: 49.2px;
+    top: 52.21px;
     left: 0;
     right: 0;
     -webkit-box-orient: vertical;
@@ -346,7 +346,7 @@ a {
   border-radius: 20px;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
-  margin-top: 8px;
+  margin-top: 9.5px;
 }
 
 .menu__item:hover {
@@ -384,7 +384,7 @@ a {
 }
 
 .menu-show .menu {
-  max-height: calc( 100vh - 49.2px);
+  max-height: calc( 100vh - 52.21px);
 }
 
 .banner {
