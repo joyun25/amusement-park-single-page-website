@@ -2,7 +2,7 @@
 
 ###### This project was done as a part of the WebDev challenges Discord https://discord.gg/eayukvGydW
 
-### [Github Pages](https://joyun25.github.io/dinosaur-island/)
+### [Github Pages](https://joyun25.github.io/amusement-park-single-page-website/)
 ![](https://i.imgur.com/ncw0xui.jpg)
 #### Function:
 - Simple one-page webpage
